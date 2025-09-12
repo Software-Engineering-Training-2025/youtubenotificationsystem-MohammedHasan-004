@@ -22,5 +22,6 @@ public class ChannelService {
 
     public void newContentNotification(Channel channel, String message) {
         // TODO: implement
+        channel.uploadVideo(message);
     }
 }

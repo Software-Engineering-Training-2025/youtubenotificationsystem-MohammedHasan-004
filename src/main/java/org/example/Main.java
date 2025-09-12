@@ -22,8 +22,8 @@ public class Main {
         svc.subscribeToChannel(c1, bob);
         svc.subscribeToChannel(c2, alice);
         svc.subscribeToChannel(c2, charlie);
-        c1.uploadVideo("Observer Pattern Explained");
-        c2.uploadVideo("Best Pasta Recipe");
+        svc.newContentNotification(c1,"Observer Pattern Explained");
+        svc.newContentNotification(c2,"Best Pasta Recipe");
 
     }
 }
